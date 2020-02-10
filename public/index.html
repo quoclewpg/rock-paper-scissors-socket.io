@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Rock Paper Scissors Game</title>
+        <script defer src = "https://rock-paper-scissors-minigame.herokuapp.com/socket.io/socket.io.js"> </script>
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors Mini Game</h1>
+        </header>
+
+        <div class="score-board">
+            <div id="user-label-1" class="badge">User 1</div>
+            <div id="user-label-2" class="badge">User 2</div>
+            <span id="user-1-score">0</span>
+            <span id="user-2-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Lets Go</p>
+        </div>
+
+        <div class="footer">
+            <div id="start-message" class="message">
+                <p id="start-p">Start</p>
+            </div>
+            <div class="timer">
+                <p class="timer-p">3</p>      
+            </div>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="r">
+                <p> ROCK </p>
+            </div>
+            <div class="choice" id='p'>
+                <p> PAPER </p>
+            </div>
+            <div class="choice" id='s'>
+                <p> SCISSORS </p>
+            </div>
+        </div>
+        </body>
+</html>
