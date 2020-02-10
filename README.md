@@ -6,3 +6,5 @@
 
 > Needs some improvements and logic checks.
 
+# Hosted on Heroku
+> https://rock-paper-scissors-minigame.herokuapp.com/
